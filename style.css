@@ -132,4 +132,34 @@ body{
     margin-top: 3rem;
 }
 
+.section-3{
+    margin-top: 3rem;
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+
+
+.quote{
+    max-width: 50rem;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote .quote-reference p{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.quote-reference{
+    display: flex;
+    justify-content: flex-end;
+}
