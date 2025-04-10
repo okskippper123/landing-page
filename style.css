@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+body{
+    font-family: "Roboto";
+}
+
+/* Modifying Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header h1{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header .right-items{
+    display: flex;
+    gap: 20px;
+}
+
