@@ -91,3 +91,45 @@ body{
     border: none;
 }
 
+/* Section 3 */
+
+.card{
+    border: 4px #3882f6 solid;
+    border-radius: 10px;
+    width: 150px;
+    height:  150px;
+}
+
+.card-cont{
+    max-width: 150px;
+}
+
+.card-cont p{
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.section-2 .heading h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-flex{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 3rem;
+}
+
+
